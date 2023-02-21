@@ -1,0 +1,36 @@
+sudo apt-get install docker.io
+sudo docker --version
+
+sudo docker pull <imagename> 
+
+sudo docker run -it -d <imagename> 
+
+sudo docker ps
+sudo docker ps -a
+
+sudo docker exec -it <container_id> bash
+
+sudo docker stop <id>
+sudo docker kill <id>
+sudo docker rm <id>
+
+sudo docker images
+
+sudo docker rmi <image_id>
+go to docker hub
+sudo docker exec -it <container_id> bash
+
+sudo docker rm -f <container_id>
+
+sudo docker commit <image_name>
+
+sudo docker rm -f $(sudo docker ps -a -q)
+
+audo docker images
+sudo docker commit
+
+sudo docker run -it -p 82:80 -d <docker account>/name
+
+sudo docker push <docker account>/<name>
+
+<check your docker hub account and check the repository>
